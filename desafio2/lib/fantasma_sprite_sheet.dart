@@ -1,7 +1,8 @@
 import 'package:bonfire/bonfire.dart';
 
 class FantasmaSpriteSheet {
-  static Future<SpriteAnimation> get fantasmaIdleLeft => SpriteAnimation.load(
+
+  static Future<SpriteAnimation> get fantasmaIdleLeft =>  SpriteAnimation.load(
         'tileset.png',
         SpriteAnimationData.sequenced(
           amount: 1,
@@ -40,4 +41,6 @@ class FantasmaSpriteSheet {
           texturePosition: Vector2(232, 43),
         ),
       );
+
+
 }
